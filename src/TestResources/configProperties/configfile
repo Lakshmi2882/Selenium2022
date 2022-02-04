@@ -1,0 +1,8 @@
+browser=chrome
+url=https://demo.opencart.com/index.php?route=account/login
+username=sbharadwaj06@gmail.com
+password=bharadwaj23
+headless=false
+incognito=false
+highlight=false
+

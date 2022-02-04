@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 99.123 s <<< FAILURE! - in TestSuite
+selectproductTest(com.qa.opencart.tests.AccountpageTest)  Time elapsed: 1.745 s  <<< FAILURE!
+java.lang.AssertionError: expected [Samsung Sync] but found [Search - Samsung]
+	at com.qa.opencart.tests.AccountpageTest.selectproductTest(AccountpageTest.java:58)
+
+selectproductTest(com.qa.opencart.tests.AccountpageTest)  Time elapsed: 1.028 s  <<< FAILURE!
+java.lang.AssertionError: expected [Apple Cinema 30] but found [Search - Apple]
+	at com.qa.opencart.tests.AccountpageTest.selectproductTest(AccountpageTest.java:58)
+
+productInfoTest(com.qa.opencart.tests.ProductInfoPageTest)  Time elapsed: 5.59 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [MacBook Pro] but found [null]
+	at com.qa.opencart.tests.ProductInfoPageTest.productInfoTest(ProductInfoPageTest.java:40)
+

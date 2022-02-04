@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [OpencartAutomation]" parallel="tests">
+  <test thread-count="2" name="opencartAccountpagetest(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.qa.opencart.tests.AccountpageTest">
+        <methods>
+          <include name="AccountPageSetUp"/>
+          <include name="setUp"/>
+          <include name="selectproductTest" invocation-numbers="2 3"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.qa.opencart.tests.AccountpageTest -->
+    </classes>
+  </test> <!-- opencartAccountpagetest(failed) -->
+  <test thread-count="2" name="OpencartProductInfoPage(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.qa.opencart.tests.ProductInfoPageTest">
+        <methods>
+          <include name="productInfoTest"/>
+          <include name="setUp"/>
+          <include name="TearDown"/>
+          <include name="productpageSetup"/>
+        </methods>
+      </class> <!-- com.qa.opencart.tests.ProductInfoPageTest -->
+    </classes>
+  </test> <!-- OpencartProductInfoPage(failed) -->
+</suite> <!-- Failed suite [OpencartAutomation] -->
